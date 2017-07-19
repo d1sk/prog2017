@@ -1,0 +1,63 @@
+def rect(x, y, a):
+　t.up()
+　t.home()
+　t.forward(x)
+　t.left(90)
+　t.forward(y)
+　t.down()
+　for i in range(4):
+　　　t.forward(a)
+　　　t.left(-90)
+#空港
+
+t.clear()
+rect(10, 10, 100)
+rect(10, -110, 100)
+rect(-110, 10, 100)
+rect(-110, -110, 100)
+
+
+import sys
+
+for line in sys.stdin:
+print(line)
+
+
+import sys
+
+sum = 0
+for line in sys.stdin:
+　sum += int(line.strip())
+
+print(sum)
+				
+
+ 
+
+
+
+
+
+						
+						
+
+
+
+
+
+		
+
+ 
+
+
+
+
+
+						
+						
+
+
+
+
+
+		
